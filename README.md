@@ -48,7 +48,7 @@ You can change 4 to the number of processes you want.
 # Load files
 
 The programm needs a dataset to load the points. Those datasets should have a very specific format for the programm to be able to use them.
-There are many examples of how those datasets should be formated in the folder "===========".
+There are many examples of how those datasets should be formated in the folder "===========". You can also specify the relative path to a dataset file.
 
 
 To sum up it should be a txt file where in the first row there should be 3 integers seperated by a comma ",".
