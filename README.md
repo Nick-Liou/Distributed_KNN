@@ -10,8 +10,8 @@ This will compile both the Sequential and the Asynchronous parallel versions and
 If you do not have "make" isntalled you can compile the programms with:
 
 ```
-gcc 	 	-O3 -Wall  main_simple.c load_examples.c  find_knn.c  k_smallest.c helpers.c -o knn_program_nick.exe  	 -lm
-mpicc  	-O3 -Wall  main_mpi.c 	 load_examples.c  find_knn.c  k_smallest.c helpers.c -o knn_program_MPI_nick.exe -lm
+gcc     -O3 -Wall  main_simple.c load_examples.c  find_knn.c  k_smallest.c helpers.c -o knn_program_nick.exe  	 -lm
+mpicc   -O3 -Wall  main_mpi.c 	 load_examples.c  find_knn.c  k_smallest.c helpers.c -o knn_program_MPI_nick.exe -lm
 ```
 
 # Run the Sequential
