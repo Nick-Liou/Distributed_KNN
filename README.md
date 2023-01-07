@@ -9,7 +9,10 @@ This will compile both the Sequential and the Asynchronous parallel versions and
 
 # Run the Sequential
 
-Use ``` make run ```
+Use 
+```
+make run
+```
 
 
 run runmpi clean test runssh
