@@ -33,7 +33,7 @@ To run the Asynchronous parallel use :
 make runmpi
 ```
 
-This will run using as default 4 processes, to change the number of processes use:
+The above will run using as default 4 processes, to change the number of processes use:
 ```
 make runmpi NP=5
 ```
