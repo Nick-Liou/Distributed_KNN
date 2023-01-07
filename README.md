@@ -38,11 +38,11 @@ The above will run using as default 4 processes, to change the number of process
 make runmpi NP=5
 ```
 
-or where you can change 4 to the number of processes you want:
+or you can run it using:
 ```
 mpirun -np 4 ./knn_program_MPI_nick.exe 
 ```
-
+You can change 4 to the number of processes you want.
 
 
 # Load files
