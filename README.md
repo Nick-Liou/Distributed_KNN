@@ -9,10 +9,24 @@ This will compile both the Sequential and the Asynchronous parallel versions and
 
 # Run the Sequential
 
-Use 
+To run the Sequential use : 
 ```
 make run
 ```
+
+# Run the Asynchronous parallel (```OpenMPI```)
+
+To run the Asynchronous parallel use : 
+```
+make runmpi
+```
+
+This will run using as default 4 processes, to change the number of processes use:
+```
+make runmpi NP=5
+```
+
+
 
 
 run runmpi clean test runssh
