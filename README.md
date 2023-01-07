@@ -60,8 +60,8 @@ The first d numbers of each row are the coordinates of the point (they can be fl
 An example for the second row is : "0.489764395788231,0.498364051982143,7,2,3,6,5,4,8,1,9"  
 Since this is the point with ID zero , in the knn there is no point with ID zero.
 
-The examples above are from the dataset 0 with name: "knn_dataset0.txt" 
-An example of a dataset where k = 0 is the dataset 24 with name: "knn_dataset24.txt" 
+The examples above are from the dataset 0 with name: "knn_dataset0.txt".
+An example of a dataset where k = 0 is the dataset 24 with name: "knn_dataset24.txt".
 
 Note:
 The number of precomputed knn is used to check the knn the program finds and should be at most n-1. If the program is asked to calculate more knn that the number of precomputed then it will only check the ones that were precomputed.
