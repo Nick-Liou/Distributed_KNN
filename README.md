@@ -60,7 +60,7 @@ The first d numbers of each row are the coordinates of the point (they can be fl
 An example for the second row is : "0.489764395788231,0.498364051982143,7,2,3,6,5,4,8,1,9"  
 Since this is the point with ID zero , in the knn there is no point with ID zero.
 
-The examples above are from the dataset 0 with name: "knn_dataset0.txt".
+The examples above are from the dataset 0 with name: "knn_dataset0.txt". 
 An example of a dataset where k = 0 is the dataset 24 with name: "knn_dataset24.txt".
 
 Note:
