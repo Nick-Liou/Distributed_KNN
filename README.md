@@ -47,7 +47,25 @@ You can change 4 to the number of processes you want.
 
 # Load files
 
-run runmpi clean test runssh
+The programm needs a dataset to load the points. Those datasets should have a very specific format for the programm to be able to use them.
+There are many examples of how those datasets should be formated in the folder "===========".
 
 
-.......
+To sum up it should be a txt file where in the first row there should be 3 integers seperated by a comma ",".
+The first is the number of points in the dataset, the second is the number of dimentions in the dataset and the third is the number of precomputed knn (which can be zero).
+An example for the first row is : "10,2,9" This means n = 10 , d = 2 and k = 9 
+
+Then there should be n rows (one for each point). Each row should have d + k numbers.
+The first d numbers of each row are the coordinates of the point (they can be floating point numbers with ".") and should be seperated by a comma "," the last k numbers are the zero-based ID of the knn for that point.
+An example for the second row is : "0.489764395788231,0.498364051982143,7,2,3,6,5,4,8,1,9" 
+Since this is the point with ID zero , in the knn there is no point with ID zero.
+
+The examples above are from the dataset 0 with name: "knn_dataset0.txt"
+An example of a dataset where k = 0 is the dataset 24 with name: "knn_dataset24.txt"
+
+Note:
+The number of precomputed knn is used to check the knn the program finds and should be at most n-1. If the program is asked to calculate more knn that the number of precomputed then it will only check the ones that were precomputed.
+
+
+
+
