@@ -4,7 +4,7 @@ There are two aproaches a simple Sequential and a more complex Asynchronous para
 
 # Compile 
 
-After downloading the files go to the folder "=====" and use: ```make```.
+After downloading the files go to the folder "Source_Code_kNN" and use: ```make```.
 This will compile both the Sequential and the Asynchronous parallel versions and will produce two executables.
 
 If you do not have "make" isntalled you can compile the programms with:
