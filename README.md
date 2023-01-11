@@ -45,7 +45,7 @@ mpirun -np 4 ./knn_program_MPI_nick.exe
 You can change 4 to the number of processes you want.
 
 
-# Load files
+# Datasets format
 
 The programm needs a dataset to load the points. Those datasets should have a very specific format for the programm to be able to use them.
 There are many examples of how those datasets should be formated in the folder "knn_datasets_zero_based". You can also specify the relative path to a dataset file.
@@ -67,5 +67,9 @@ Note:
 The number of precomputed knn is used to check the knn the program finds and should be at most n-1. If the program is asked to calculate more knn that the number of precomputed then it will only check the ones that were precomputed.
 
 
+
+# Generate datasets
+
+A Matlab script is provided to create and store datasets 
 
 
